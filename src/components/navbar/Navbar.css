@@ -1,0 +1,36 @@
+.mainNav {
+  background-color: white;
+  height: 60px;
+}
+.miniNav {
+  background-color: #ebf1f4;
+  padding: 10px;
+}
+
+.navButton {
+  transition: all 200ms ease-in-out;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+
+  font-weight: 700;
+}
+.navButton:hover {
+  text-decoration: underline;
+  border: none;
+  cursor: pointer;
+  color: #e38a17;
+}
+.navText {
+  font-size: 12px;
+}
+.navText:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.navbarLogo {
+  height: 60px;
+  width: auto;
+  display: inline;
+}
