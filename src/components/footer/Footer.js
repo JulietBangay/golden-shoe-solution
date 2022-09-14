@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Grid } from "@mui/material";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
@@ -25,10 +26,14 @@ export default function Footer() {
                 Contact
               </Grid>
               <Grid item className="footerLink">
-                Terms and conditions
+                <Link to="/terms-and-conditions" className="footerInternalLink">
+                  Terms and conditions
+                </Link>
               </Grid>
               <Grid item className="footerLink">
-                Privacy Policy
+                <Link to="/privacy-policy" className="footerInternalLink">
+                  Privacy Policy
+                </Link>
               </Grid>
             </Grid>
           </Grid>

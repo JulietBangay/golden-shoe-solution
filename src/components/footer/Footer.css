@@ -24,3 +24,6 @@ a:link,
 a:visited {
   color: black;
 }
+.footerInternalLink {
+  text-decoration: none;
+}

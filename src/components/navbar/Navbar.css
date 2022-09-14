@@ -39,3 +39,16 @@
   position: relative;
   margin-bottom: -5px;
 }
+
+.shopCategories {
+  font-weight: 600;
+}
+
+.shopCategories:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.categoryLink {
+  text-decoration: none;
+}

@@ -1,7 +1,7 @@
-import { Button, Grid } from "@mui/material";
-import NewInImage from "../images/example-new-in-image.jpg";
-import iosDownload from "../images/app-store-download.png";
-import googleDownload from "../images/google-play-download.png";
+import { Grid } from "@mui/material";
+import NewInImage from "../../images/example-new-in-image.jpg";
+import iosDownload from "../../images/app-store-download.png";
+import googleDownload from "../../images/google-play-download.png";
 import "./Home.css";
 
 export default function Home() {
@@ -32,7 +32,7 @@ export default function Home() {
           </Grid>
           <Grid item xs={2}>
             <button variant="contained" className="cardButton">
-              Babies
+              Baby
             </button>
           </Grid>
           <Grid item xs={2}>

@@ -105,3 +105,10 @@
 .mobileAppLinks {
   padding: 20px;
 }
+
+.shopCard {
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}

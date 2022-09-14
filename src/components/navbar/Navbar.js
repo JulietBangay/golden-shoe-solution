@@ -1,4 +1,5 @@
 import { Grid } from "@mui/material";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Logo from "../../images/example-logo-golden-shoe.png";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
@@ -8,8 +9,10 @@ export default function Navbar() {
     <div className="navbar">
       <div>
         <Grid container alignItems="center" className="mainNav">
-          <Grid item xs={3} className="navItem" style={{ height: "100%" }}>
-            <img src={Logo} alt="Golden Shoe" className="navbarLogo" />
+          <Grid item xs={5} className="navItem" style={{ height: "100%" }}>
+            <Link to="/" className="navbarLink">
+              <img src={Logo} alt="Golden Shoe" className="navbarLogo" />
+            </Link>
           </Grid>
           <Grid
             item
@@ -18,11 +21,11 @@ export default function Navbar() {
             style={{ height: "100%" }}
           ></Grid>
           <Grid item xs={2} style={{ height: "100%" }}>
-            <button className="navButton">Home</button>
+            <Link to="/" className="navbarLink">
+              <button className="navButton">Home</button>
+            </Link>
           </Grid>
-          <Grid item xs={2} style={{ height: "100%" }}>
-            <button className="navButton">Products</button>
-          </Grid>
+
           <Grid item xs={2} style={{ height: "100%" }}>
             <button className="navButton">My Account</button>
           </Grid>
@@ -45,6 +48,44 @@ export default function Navbar() {
           </Grid>
           <Grid item xs={1} className="navText">
             About us
+          </Grid>
+        </Grid>
+      </div>
+      <div className="shopCard">
+        <Grid container>
+          <Grid item xs={2} className="shopCategories">
+            {" "}
+            <Link to="/ladies" className="categoryLink">
+              Women{" "}
+            </Link>
+          </Grid>
+
+          <Grid item xs={2} className="shopCategories">
+            {" "}
+            <Link to="/men" className="categoryLink">
+              Men{" "}
+            </Link>
+          </Grid>
+
+          <Grid item xs={2} className="shopCategories">
+            <Link to="/children" className="categoryLink">
+              Children
+            </Link>
+          </Grid>
+          <Grid item xs={2} className="shopCategories">
+            <Link to="/baby" className="categoryLink">
+              Baby
+            </Link>
+          </Grid>
+          <Grid item xs={2} className="shopCategories">
+            <Link to="/school" className="categoryLink">
+              School
+            </Link>
+          </Grid>
+          <Grid item xs={2} className="shopCategories">
+            <Link to="/accessories" className="categoryLink">
+              Accessories
+            </Link>
           </Grid>
         </Grid>
       </div>
