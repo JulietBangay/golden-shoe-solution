@@ -1,0 +1,22 @@
+.footer {
+  background-color: #ebf1f4;
+  padding: 20px;
+}
+.footerLogo {
+  width: 80px;
+  filter: grayscale(100%);
+}
+.footerGrid {
+  padding: 20px;
+}
+.footerLink:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.socialsGrid {
+  padding: 20px;
+}
+.socialsLogo:hover {
+  color: #e38a17;
+  cursor: pointer;
+}

@@ -1,6 +1,7 @@
 import { Grid } from "@mui/material";
 import "./Navbar.css";
 import Logo from "../../images/example-logo-golden-shoe.png";
+import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 
 export default function Navbar() {
   return (
@@ -26,7 +27,10 @@ export default function Navbar() {
             <button className="navButton">My Account</button>
           </Grid>
           <Grid item xs={2} style={{ height: "100%" }}>
-            <button className="navButton">My Bag</button>
+            <button className="navButton">
+              My Bag
+              <ShoppingBasketIcon className="bagIcon" />
+            </button>
           </Grid>
         </Grid>
       </div>

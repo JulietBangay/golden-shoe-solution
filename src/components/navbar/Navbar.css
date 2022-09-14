@@ -34,3 +34,8 @@
   width: auto;
   display: inline;
 }
+
+.bagIcon {
+  position: relative;
+  margin-bottom: -5px;
+}

@@ -1,0 +1,37 @@
+.newProductsCard {
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  background-size: cover;
+  background-position: bottom;
+}
+.cardTitle {
+  padding: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+.cardGridContainer {
+  padding: 20px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.cardButton {
+  color: #000;
+  background-color: #fff;
+  border: transparent solid 3px;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  font-weight: 700;
+  transition: all 200ms ease-in-out;
+}
+
+.cardButton:hover {
+  color: #fff;
+  background-color: transparent;
+  border: #fff solid 3px;
+  cursor: pointer;
+}

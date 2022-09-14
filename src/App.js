@@ -4,6 +4,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./home/Home";
 import "./App.css";
+import Footer from "./components/footer/Footer";
 
 const theme = createTheme({
   palette: {
@@ -45,6 +46,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
+        <Footer />
       </div>
     </ThemeProvider>
   );
