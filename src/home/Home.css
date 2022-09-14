@@ -35,3 +35,73 @@
   border: #fff solid 3px;
   cursor: pointer;
 }
+
+.newsLetterCard {
+  width: 80%;
+  margin: auto;
+  background: #f7b462;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.newsLetterCardTitle {
+  font-size: 20px;
+  padding: 20px;
+  font-weight: 700;
+}
+.newsLetterSubtitle {
+  padding: 10px;
+}
+
+.newsletterButton {
+  border: transparent solid 3px;
+  font-size: 15px;
+  /* color: #e38a17; */
+  background: white;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
+.newsletterButton:hover {
+  border: white solid 3px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.iosButton {
+  width: 150px;
+  height: 60px;
+}
+.iosButton:hover {
+  cursor: pointer;
+  filter: opacity(0.75);
+}
+
+.googleButton {
+  width: 150px;
+  height: 60px;
+}
+
+.googleButton:hover {
+  cursor: pointer;
+  filter: opacity(0.75);
+}
+
+.mobileAppCard {
+  width: 80%;
+  margin: auto;
+  background: #ebf1f4;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.mobileAppTitle {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.mobileAppLinks {
+  padding: 20px;
+}

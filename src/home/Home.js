@@ -1,5 +1,7 @@
 import { Button, Grid } from "@mui/material";
 import NewInImage from "../images/example-new-in-image.jpg";
+import iosDownload from "../images/app-store-download.png";
+import googleDownload from "../images/google-play-download.png";
 import "./Home.css";
 
 export default function Home() {
@@ -44,6 +46,41 @@ export default function Home() {
             </button>
           </Grid>
         </Grid>
+      </div>
+      <div className="mobileAppCard">
+        <div className="mobileAppTitle">
+          Don't miss out, download the mobile app!
+        </div>
+        <div className="mobileAppLinks">
+          <Grid container justifyContent="center">
+            <Grid item>
+              <a
+                href="https://www.apple.com/uk/app-store/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img src={iosDownload} alt="" className="iosButton" />
+              </a>
+            </Grid>
+            <Grid item>
+              <a
+                href="https://play.google.com/store/apps?gl=GB"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img src={googleDownload} alt="" className="googleButton" />
+              </a>
+            </Grid>
+          </Grid>
+        </div>
+      </div>
+      <div className="newsLetterCard">
+        <div className="newsLetterCardTitle">Newsletter</div>
+        <div className="newsLetterSubtitle">
+          Sign up to the Golden Shoe newsletter to recieve exclusive offers,
+          tips, and vouchers!
+        </div>
+        <button className="newsletterButton">Sign up now</button>
       </div>
     </div>
   );

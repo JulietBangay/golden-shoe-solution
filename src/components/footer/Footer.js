@@ -52,13 +52,31 @@ export default function Footer() {
           className="socialsGrid"
         >
           <Grid item>
-            <TwitterIcon className="socialsLogo" />
+            <a
+              href="https://twitter.com/?lang=en"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <TwitterIcon className="socialsLogo" />
+            </a>
           </Grid>
           <Grid item>
-            <FacebookIcon className="socialsLogo" />
+            <a
+              href="https://en-gb.facebook.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <FacebookIcon className="socialsLogo" />
+            </a>
           </Grid>
           <Grid item>
-            <InstagramIcon className="socialsLogo" />
+            <a
+              href="https://www.instagram.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <InstagramIcon className="socialsLogo" />
+            </a>
           </Grid>
         </Grid>
       </div>

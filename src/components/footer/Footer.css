@@ -20,3 +20,7 @@
   color: #e38a17;
   cursor: pointer;
 }
+a:link,
+a:visited {
+  color: black;
+}

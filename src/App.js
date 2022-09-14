@@ -24,6 +24,7 @@ const theme = createTheme({
     warning: {
       main: "#E38A17",
       // orange
+      // #f7b462 (light orange)
     },
     info: {
       main: "#ff00bf",
