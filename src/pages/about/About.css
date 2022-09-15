@@ -1,0 +1,35 @@
+.aboutTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 40px;
+}
+.gridContainer {
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.aboutCard {
+  padding: 20px;
+}
+
+.aboutCardContentContainer {
+  background: #ebf1f4;
+  padding: 20px;
+}
+
+.aboutCardTitle {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.aboutCardContent {
+  color: #b30000;
+}
+
+.aboutCardContent:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -15,6 +15,7 @@ import Privacy from "./pages/legals/privacy/Privacy";
 import Terms from "./pages/legals/terms/Terms";
 import Contact from "./pages/contact/Contact";
 import FAQs from "./pages/faqs/FAQs";
+import About from "./pages/about/About";
 
 const theme = createTheme({
   palette: {
@@ -66,6 +67,7 @@ function App() {
           <Route path="/terms-and-conditions" element={<Terms />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/frequently-asked-questions" element={<FAQs />} />
+          <Route path="/about-us" element={<About />} />
         </Routes>
         <Footer />
       </div>

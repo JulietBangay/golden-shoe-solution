@@ -51,7 +51,9 @@ export default function Navbar() {
             </Link>
           </Grid>
           <Grid item xs={1} className="navText">
-            About us
+            <Link to="/about-us" className="navbarLink">
+              About us
+            </Link>
           </Grid>
         </Grid>
       </div>

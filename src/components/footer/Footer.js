@@ -50,7 +50,9 @@ export default function Footer() {
                 Join now
               </Grid>
               <Grid item className="footerLink">
-                About us
+                <Link to="/about-us" className="footerInternalLink">
+                  About us
+                </Link>
               </Grid>
             </Grid>
           </Grid>
