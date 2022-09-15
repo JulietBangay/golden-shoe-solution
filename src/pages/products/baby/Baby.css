@@ -1,0 +1,62 @@
+.productsTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 40px;
+}
+
+.productsContainer {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.sortFilter:hover {
+  text-decoration: underline;
+}
+
+.productImage {
+  width: 50%;
+}
+
+.productName {
+  text-align: left;
+  font-weight: 700;
+}
+
+.productInformation {
+  text-align: left;
+}
+
+.productPrice {
+  text-align: left;
+}
+
+.productThumbContainer {
+  transition: all 200ms, ease-in-out;
+}
+
+.productThumbContainer:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.productsGrid {
+  margin-top: 20px;
+}
+
+.loadMoreButton {
+  margin: 40px;
+  font-size: 20px;
+  padding: 20px;
+  border: transparent solid 3px;
+  transition: all 200ms ease-in-out;
+  color: white;
+  background: #b30000;
+  border-radius: 5px;
+}
+
+.loadMoreButton:hover {
+  border: #b30000 solid 3px;
+  background: white;
+  color: #b30000;
+}
