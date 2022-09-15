@@ -8,7 +8,7 @@
 }
 .cardTitle {
   padding: 40px;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
   color: #fff;
 }
@@ -106,9 +106,8 @@
   padding: 20px;
 }
 
-.shopCard {
-  width: 50%;
-  display: block;
-  margin: auto;
-  margin-top: 10px;
+@media (max-width: 950px) {
+  .cardButton {
+    font-weight: normal;
+  }
 }

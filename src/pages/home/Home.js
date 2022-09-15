@@ -15,32 +15,32 @@ export default function Home() {
       >
         <div className="cardTitle">New Arrivals</div>
         <Grid container spacing={2} className="cardGridContainer">
-          <Grid item xs={2}>
+          <Grid item md={2} sm={4} xs={6}>
             <button variant="contained" className="cardButton">
               Women
             </button>
           </Grid>
-          <Grid item xs={2}>
+          <Grid item md={2} sm={4} xs={6}>
             <button variant="contained" className="cardButton">
               Men
             </button>
           </Grid>
-          <Grid item xs={2}>
+          <Grid item md={2} sm={4} xs={6}>
             <button variant="contained" className="cardButton">
               Children
             </button>
           </Grid>
-          <Grid item xs={2}>
+          <Grid item md={2} sm={4} xs={6}>
             <button variant="contained" className="cardButton">
               Baby
             </button>
           </Grid>
-          <Grid item xs={2}>
+          <Grid item md={2} sm={4} xs={6}>
             <button variant="contained" className="cardButton">
               School
             </button>
           </Grid>
-          <Grid item xs={2}>
+          <Grid item md={2} sm={4} xs={6}>
             <button variant="contained" className="cardButton">
               Bags {"&"} Accessories
             </button>

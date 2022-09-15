@@ -79,18 +79,18 @@ export default function Navbar() {
       </div>
       <div className="miniNav">
         <Grid container>
-          <Grid item xs={9}></Grid>
-          <Grid item xs={1} className="navText">
+          <Grid item xs={6}></Grid>
+          <Grid item xs={2} className="navText">
             <Link to="/frequently-asked-questions" className="navbarLink">
               Help {"&"} FAQs
             </Link>
           </Grid>
-          <Grid item xs={1} className="navText">
+          <Grid item xs={2} className="navText">
             <Link to="/contact" className="navbarLink">
               Contact
             </Link>
           </Grid>
-          <Grid item xs={1} className="navText">
+          <Grid item xs={2} className="navText">
             <Link to="/about-us" className="navbarLink">
               About us
             </Link>
@@ -99,36 +99,36 @@ export default function Navbar() {
       </div>
       <div className="shopCard">
         <Grid container>
-          <Grid item xs={2} className="shopCategories">
+          <Grid item md={2} xs={4} className="shopCategories">
             {" "}
             <Link to="/ladies" className="categoryLink">
               Women{" "}
             </Link>
           </Grid>
 
-          <Grid item xs={2} className="shopCategories">
+          <Grid item md={2} xs={4} className="shopCategories">
             {" "}
             <Link to="/men" className="categoryLink">
               Men{" "}
             </Link>
           </Grid>
 
-          <Grid item xs={2} className="shopCategories">
+          <Grid item md={2} xs={4} className="shopCategories">
             <Link to="/children" className="categoryLink">
               Children
             </Link>
           </Grid>
-          <Grid item xs={2} className="shopCategories">
+          <Grid item md={2} xs={4} className="shopCategories">
             <Link to="/baby" className="categoryLink">
               Baby
             </Link>
           </Grid>
-          <Grid item xs={2} className="shopCategories">
+          <Grid item md={2} xs={4} className="shopCategories">
             <Link to="/school" className="categoryLink">
               School
             </Link>
           </Grid>
-          <Grid item xs={2} className="shopCategories">
+          <Grid item md={2} xs={4} className="shopCategories">
             <Link to="/accessories" className="categoryLink">
               Accessories
             </Link>

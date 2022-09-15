@@ -19,7 +19,7 @@ export default function Baby() {
           </Grid>
         </Grid>
         <Grid container spacing={2} className="productsGrid">
-          <Grid item xs={4}>
+          <Grid item md={4} sm={6} xs={12}>
             <div className="productThumbContainer">
               <img src={ShoeImage} alt="" className="productImage" />
               <div className="productName">Product Name</div>
@@ -33,7 +33,7 @@ export default function Baby() {
               </Grid>
             </div>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item md={4} sm={6} xs={12}>
             <div className="productThumbContainer">
               <img src={ShoeImage} alt="" className="productImage" />
               <div className="productName">Product Name</div>
@@ -47,7 +47,7 @@ export default function Baby() {
               </Grid>
             </div>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item md={4} sm={6} xs={12}>
             <div className="productThumbContainer">
               <img src={ShoeImage} alt="" className="productImage" />
               <div className="productName">Product Name</div>

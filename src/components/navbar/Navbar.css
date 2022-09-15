@@ -82,3 +82,19 @@
   border-radius: 5px;
   width: 100%;
 }
+
+.shopCard {
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+@media (max-width: 950px) {
+  .shopCard {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
+}

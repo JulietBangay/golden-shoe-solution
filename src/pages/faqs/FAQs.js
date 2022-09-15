@@ -8,7 +8,7 @@ export default function FAQs() {
       <div className="topicsContainer">
         <div className="topicsTitle">FAQ topics</div>
         <Grid container spacing={2}>
-          <Grid item xs={4}>
+          <Grid item md={4} sm={6} xs={12}>
             <div className="topicsCard">
               <div className="topicsTitle">Delivery</div>
 
@@ -18,7 +18,7 @@ export default function FAQs() {
               <div className="faqsQuestion">Where's my order?</div>
             </div>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item md={4} sm={6} xs={12}>
             <div className="topicsCard">
               <div className="topicsTitle">Returns and Refunds</div>
 
@@ -28,7 +28,7 @@ export default function FAQs() {
               <div className="faqsQuestion">Can I exchange?</div>
             </div>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item md={4} sm={6} xs={12}>
             <div className="topicsCard">
               <div className="topicsTitle">Order Issues</div>
 
@@ -38,7 +38,7 @@ export default function FAQs() {
               <div className="faqsQuestion">Faulty item</div>
             </div>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item md={4} sm={6} xs={12}>
             <div className="topicsCard">
               <div className="topicsTitle">Products and stock</div>
 
@@ -48,7 +48,7 @@ export default function FAQs() {
               <div className="faqsQuestion">Will an item be back in stock?</div>
             </div>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item md={4} sm={6} xs={12}>
             <div className="topicsCard">
               <div className="topicsTitle">
                 Payment, promotional codes and vouchers
@@ -60,7 +60,7 @@ export default function FAQs() {
               <div className="faqsQuestion">Promo codes</div>
             </div>
           </Grid>
-          <Grid item xs={4}>
+          <Grid item md={4} sm={6} xs={12}>
             <div className="topicsCard">
               <div className="topicsTitle">Technical</div>
 

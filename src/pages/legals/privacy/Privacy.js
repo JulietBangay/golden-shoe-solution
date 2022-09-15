@@ -357,7 +357,7 @@ export default function Privacy() {
             e-billing services.
           </Grid>
           <Grid item xs={4}>
-            Analytical/performance cookies
+            Analytical / performance cookies
           </Grid>
           <Grid item xs={8}>
             They allow us to recognise and count the number of visitors and to
