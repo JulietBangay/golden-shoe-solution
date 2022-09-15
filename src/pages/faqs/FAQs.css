@@ -1,0 +1,25 @@
+.faqsTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 40px;
+}
+
+.topicsContainer {
+  margin: 40px;
+}
+
+.topicsTitle {
+  text-align: left;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.topicsCard {
+  background: #ebf1f4;
+  padding: 20px;
+}
+
+.faqsQuestion:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

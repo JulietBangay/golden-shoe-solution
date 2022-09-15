@@ -41,7 +41,9 @@ export default function Navbar() {
         <Grid container>
           <Grid item xs={9}></Grid>
           <Grid item xs={1} className="navText">
-            Help {"&"} FAQs
+            <Link to="/frequently-asked-questions" className="navbarLink">
+              Help {"&"} FAQs
+            </Link>
           </Grid>
           <Grid item xs={1} className="navText">
             <Link to="/contact" className="navbarLink">
