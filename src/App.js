@@ -13,6 +13,7 @@ import School from "./pages/products/school/School";
 import Accessories from "./pages/products/accessories/Accessories";
 import Privacy from "./pages/legals/privacy/Privacy";
 import Terms from "./pages/legals/terms/Terms";
+import Contact from "./pages/contact/Contact";
 
 const theme = createTheme({
   palette: {
@@ -62,6 +63,7 @@ function App() {
           <Route path="/accessories" element={<Accessories />} />
           <Route path="/privacy-policy" element={<Privacy />} />
           <Route path="/terms-and-conditions" element={<Terms />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>

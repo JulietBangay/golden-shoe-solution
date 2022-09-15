@@ -23,7 +23,9 @@ export default function Footer() {
                 FAQs
               </Grid>
               <Grid item className="footerLink">
-                Contact
+                <Link to="/contact" className="footerInternalLink">
+                  Contact
+                </Link>
               </Grid>
               <Grid item className="footerLink">
                 <Link to="/terms-and-conditions" className="footerInternalLink">

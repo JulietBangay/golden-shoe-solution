@@ -44,7 +44,9 @@ export default function Navbar() {
             Help {"&"} FAQs
           </Grid>
           <Grid item xs={1} className="navText">
-            Contact
+            <Link to="/contact" className="navbarLink">
+              Contact
+            </Link>
           </Grid>
           <Grid item xs={1} className="navText">
             About us
