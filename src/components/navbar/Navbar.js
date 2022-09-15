@@ -1,10 +1,22 @@
-import { Grid } from "@mui/material";
+import { Grid, Popper, Box, Fade } from "@mui/material";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Logo from "../../images/example-logo-golden-shoe.png";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [open, setOpen] = useState(false);
+  const [anchorEl, setAnchorEl] = useState(null);
+
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+    setOpen((previousOpen) => !previousOpen);
+  };
+
+  const canBeOpen = open && Boolean(anchorEl);
+  const id = canBeOpen ? "transition-popper" : undefined;
+
   return (
     <div className="navbar">
       <div>
@@ -27,7 +39,35 @@ export default function Navbar() {
           </Grid>
 
           <Grid item xs={2} style={{ height: "100%" }}>
-            <button className="navButton">My Account</button>
+            <button
+              className="navButton"
+              aria-describedby={id}
+              onClick={handleClick}
+            >
+              My Account
+            </button>
+            <Popper id={id} open={open} anchorEl={anchorEl} transition>
+              {({ TransitionProps }) => (
+                <Fade {...TransitionProps} timeout={350}>
+                  <Box
+                    sx={{
+                      border: 1,
+                      p: 1,
+                      bgcolor: "background.paper",
+                      borderRadius: "5px",
+                    }}
+                  >
+                    <div>
+                      <button className="signupButton">Sign up</button>
+                    </div>
+
+                    <div>
+                      <button className="loginButton">Login</button>
+                    </div>
+                  </Box>
+                </Fade>
+              )}
+            </Popper>
           </Grid>
           <Grid item xs={2} style={{ height: "100%" }}>
             <button className="navButton">

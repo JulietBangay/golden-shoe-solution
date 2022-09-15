@@ -47,9 +47,6 @@ export default function Footer() {
           <Grid item xs={4}>
             <Grid container direction="column" spacing={1}>
               <Grid item className="footerLink">
-                Join now
-              </Grid>
-              <Grid item className="footerLink">
                 <Link to="/about-us" className="footerInternalLink">
                   About us
                 </Link>

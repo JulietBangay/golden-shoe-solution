@@ -56,3 +56,29 @@
 .navbarLink {
   text-decoration: none;
 }
+.signupButton {
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: transparent solid 3px;
+  color: white;
+  background: #e38a17;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.loginButton {
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: transparent solid 3px;
+  color: white;
+  background: #e38a17;
+  border-radius: 5px;
+  width: 100%;
+}
