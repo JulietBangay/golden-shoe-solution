@@ -1,5 +1,5 @@
 import { Grid, Rating } from "@mui/material";
-import { useState } from "react";
+
 import ShoeImage from "../../../images/shoe.png";
 import "./ProductDetails.css";
 
