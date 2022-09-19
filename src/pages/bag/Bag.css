@@ -1,0 +1,50 @@
+.bagTitle {
+  margin: 40px;
+  font-size: 20px;
+  font-weight: 700px;
+}
+
+.bagPageIcon {
+  padding: 40px;
+  padding-bottom: 20px;
+}
+
+.bagAccountButtons {
+  margin: 40px;
+}
+
+.bagSignupButton {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  background: #e38a17;
+  border: 3px solid #e38a17;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  width: 30%;
+}
+
+.bagSignupButton:hover {
+  background: white;
+  color: #e38a17;
+}
+
+.bagLoginButton {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  background: #b30000;
+  border: 3px solid #b30000;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  width: 30%;
+}
+
+.bagLoginButton:hover {
+  background: white;
+  color: #b30000;
+}

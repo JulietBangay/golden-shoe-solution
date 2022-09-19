@@ -1,0 +1,103 @@
+.productDetailsGrid {
+  padding-top: 60px;
+}
+
+.productImage {
+  width: 80%;
+  height: auto;
+}
+
+.productInformationGridItem {
+  margin: 20px;
+}
+
+.productDetailsName {
+  text-align: left;
+  font-size: 20;
+  font-weight: 700;
+}
+
+.productDetailsPrice {
+  text-align: left;
+  color: #8798ad;
+  font-size: 20;
+  font-weight: 700;
+}
+
+.productDetailsRatingItem {
+  text-align: left;
+}
+
+.productDetailsSelectSize {
+  text-align: left;
+  font-size: 20;
+  font-weight: 700;
+}
+
+.productDetailSizeButton {
+  background: white;
+  border: 3px solid #e38a17;
+  color: #e38a17;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 10px;
+  width: 130px;
+  height: 80px;
+  transition: all 200ms ease-in-out;
+  font-size: 12px;
+}
+
+.productDetailSizeButton:hover {
+  cursor: pointer;
+}
+
+.productDetailSizeButtonDisabled {
+  background: white;
+  border: 3px solid #e38a17;
+  border-radius: 5px;
+  padding: 10px;
+  width: 130px;
+  height: 80px;
+  text-decoration: line-through;
+  font-size: 12px;
+}
+
+.productDetailsSizingGrid {
+  width: 100%;
+}
+
+.addtoBasketButton {
+  margin: 40px;
+  margin-top: 80px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+
+  background: #e38a17;
+  border: 3px solid #e38a17;
+  transition: all 200ms ease-in-out;
+}
+
+.addtoBasketButton:hover {
+  color: #e38a17;
+  background: white;
+  cursor: pointer;
+}
+
+.productDetailsReviewsContainer {
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.reviewsTitle {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.reviewContent {
+  text-align: left;
+}

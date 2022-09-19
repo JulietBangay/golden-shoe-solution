@@ -39,13 +39,15 @@ export default function Navbar() {
           </Grid>
 
           <Grid item xs={2} style={{ height: "100%" }}>
-            <button
-              className="navButton"
-              aria-describedby={id}
-              onClick={handleClick}
-            >
-              My Account
-            </button>
+            <Link to="/my-bag" className="navbarLink">
+              <button
+                className="navButton"
+                aria-describedby={id}
+                onClick={handleClick}
+              >
+                My Account
+              </button>
+            </Link>
             <Popper id={id} open={open} anchorEl={anchorEl} transition>
               {({ TransitionProps }) => (
                 <Fade {...TransitionProps} timeout={350}>
@@ -101,35 +103,59 @@ export default function Navbar() {
         <Grid container>
           <Grid item md={2} xs={4} className="shopCategories">
             {" "}
-            <Link to="/ladies" className="categoryLink">
-              Women{" "}
+            <Link
+              to="/products"
+              className="categoryLink"
+              state={{ title: "Ladies Shoes" }}
+            >
+              Ladies{" "}
             </Link>
           </Grid>
 
           <Grid item md={2} xs={4} className="shopCategories">
             {" "}
-            <Link to="/men" className="categoryLink">
+            <Link
+              to="/products"
+              className="categoryLink"
+              state={{ title: "Mens Shoes" }}
+            >
               Men{" "}
             </Link>
           </Grid>
 
           <Grid item md={2} xs={4} className="shopCategories">
-            <Link to="/children" className="categoryLink">
+            <Link
+              to="/products"
+              className="categoryLink"
+              state={{ title: "Childrens Shoes" }}
+            >
               Children
             </Link>
           </Grid>
           <Grid item md={2} xs={4} className="shopCategories">
-            <Link to="/baby" className="categoryLink">
+            <Link
+              to="/products"
+              className="categoryLink"
+              state={{ title: "Baby Shoes" }}
+            >
               Baby
             </Link>
           </Grid>
           <Grid item md={2} xs={4} className="shopCategories">
-            <Link to="/school" className="categoryLink">
+            <Link
+              to="/products"
+              className="categoryLink"
+              state={{ title: "School Shoes" }}
+            >
               School
             </Link>
           </Grid>
           <Grid item md={2} xs={4} className="shopCategories">
-            <Link to="/accessories" className="categoryLink">
+            <Link
+              to="/products"
+              className="categoryLink"
+              state={{ title: "Bags and Accessories" }}
+            >
               Accessories
             </Link>
           </Grid>

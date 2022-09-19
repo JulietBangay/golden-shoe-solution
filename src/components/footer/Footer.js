@@ -51,6 +51,11 @@ export default function Footer() {
                   About us
                 </Link>
               </Grid>
+              <Grid item className="footerLink">
+                <Link to="/returns" className="footerInternalLink">
+                  Returns
+                </Link>
+              </Grid>
             </Grid>
           </Grid>
         </Grid>

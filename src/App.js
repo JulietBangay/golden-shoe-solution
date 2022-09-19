@@ -5,17 +5,16 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import "./App.css";
 import Footer from "./components/footer/Footer";
-import Women from "./pages/products/women/Women";
-import Men from "./pages/products/men/Men";
-import Children from "./pages/products/children/Children";
-import Baby from "./pages/products/baby/Baby";
-import School from "./pages/products/school/School";
-import Accessories from "./pages/products/accessories/Accessories";
+
 import Privacy from "./pages/legals/privacy/Privacy";
 import Terms from "./pages/legals/terms/Terms";
 import Contact from "./pages/contact/Contact";
 import FAQs from "./pages/faqs/FAQs";
 import About from "./pages/about/About";
+import Products from "./pages/products/items/Products";
+import ProductDetails from "./pages/products/productDetails/ProductDetails";
+import Returns from "./pages/returns/Returns";
+import Bag from "./pages/bag/Bag";
 
 const theme = createTheme({
   palette: {
@@ -57,17 +56,15 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/ladies" element={<Women />} />
-          <Route path="/men" element={<Men />} />
-          <Route path="/children" element={<Children />} />
-          <Route path="/baby" element={<Baby />} />
-          <Route path="/school" element={<School />} />
-          <Route path="/accessories" element={<Accessories />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/product-details" element={<ProductDetails />} />
           <Route path="/privacy-policy" element={<Privacy />} />
           <Route path="/terms-and-conditions" element={<Terms />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/frequently-asked-questions" element={<FAQs />} />
           <Route path="/about-us" element={<About />} />
+          <Route path="/returns" element={<Returns />} />
+          <Route path="/my-bag" element={<Bag />} />
         </Routes>
         <Footer />
       </div>

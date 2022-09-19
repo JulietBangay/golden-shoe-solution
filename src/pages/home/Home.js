@@ -1,7 +1,9 @@
 import { Grid } from "@mui/material";
+import { Link } from "react-router-dom";
 import NewInImage from "../../images/example-new-in-image.jpg";
 import iosDownload from "../../images/app-store-download.png";
 import googleDownload from "../../images/google-play-download.png";
+
 import "./Home.css";
 
 export default function Home() {
@@ -16,34 +18,70 @@ export default function Home() {
         <div className="cardTitle">New Arrivals</div>
         <Grid container spacing={2} className="cardGridContainer">
           <Grid item md={2} sm={4} xs={6}>
-            <button variant="contained" className="cardButton">
-              Women
-            </button>
+            <Link
+              to="/products"
+              className="categoryLink"
+              state={{ title: "Ladies Shoes: New" }}
+            >
+              <button variant="contained" className="cardButton">
+                Women
+              </button>
+            </Link>
           </Grid>
           <Grid item md={2} sm={4} xs={6}>
-            <button variant="contained" className="cardButton">
-              Men
-            </button>
+            <Link
+              to="/products"
+              className="categoryLink"
+              state={{ title: "Mens Shoes: New" }}
+            >
+              <button variant="contained" className="cardButton">
+                Men
+              </button>
+            </Link>
           </Grid>
           <Grid item md={2} sm={4} xs={6}>
-            <button variant="contained" className="cardButton">
-              Children
-            </button>
+            <Link
+              to="/products"
+              className="categoryLink"
+              state={{ title: "Childrens Shoes: New" }}
+            >
+              <button variant="contained" className="cardButton">
+                Children
+              </button>
+            </Link>
           </Grid>
           <Grid item md={2} sm={4} xs={6}>
-            <button variant="contained" className="cardButton">
-              Baby
-            </button>
+            <Link
+              to="/products"
+              className="categoryLink"
+              state={{ title: "Baby Shoes: New" }}
+            >
+              <button variant="contained" className="cardButton">
+                Baby
+              </button>
+            </Link>
           </Grid>
           <Grid item md={2} sm={4} xs={6}>
-            <button variant="contained" className="cardButton">
-              School
-            </button>
+            <Link
+              to="/products"
+              className="categoryLink"
+              state={{ title: "School Shoes: New" }}
+            >
+              <button variant="contained" className="cardButton">
+                School
+              </button>
+            </Link>
           </Grid>
           <Grid item md={2} sm={4} xs={6}>
-            <button variant="contained" className="cardButton">
-              Bags {"&"} Accessories
-            </button>
+            <Link
+              to="/products"
+              className="categoryLink"
+              state={{ title: "Bags and Accessories: New" }}
+            >
+              <button variant="contained" className="cardButton">
+                Bags {"&"} Accessories
+              </button>
+            </Link>
           </Grid>
         </Grid>
       </div>

@@ -1,0 +1,58 @@
+.returnsTitle {
+  margin: 40px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.returnsQuestionsContainer {
+  margin: 20px;
+  background: #ebf1f4;
+  padding: 20px;
+}
+.returnsQuestionsContainer:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.returnsForwardArrow {
+  position: relative;
+  margin-bottom: -5px;
+}
+
+.returnsLink {
+  text-decoration: none;
+}
+
+.returnsInformation {
+  padding: 20px;
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.returnsFormOpen {
+  font-weight: bolder;
+}
+.returnsFormOpen:hover {
+  text-decoration: underline;
+}
+
+.returnsTextfield {
+  width: 60%;
+  margin: 10px;
+}
+
+.createReturnButton {
+  padding: 20px;
+  color: white;
+  background: #b30000;
+  border-radius: 5px;
+  margin: 10px;
+  border: 3px solid #b30000;
+  cursor: pointer;
+}
+
+.returnsFormContainer {
+  margin: 20px;
+  margin-bottom: 60px;
+}
