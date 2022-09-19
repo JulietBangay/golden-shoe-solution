@@ -56,3 +56,12 @@
   margin: 20px;
   margin-bottom: 60px;
 }
+
+@media (max-width: 450px) {
+  .returnsQuestionsContainer {
+    padding: 20px;
+    width: 60%;
+    display: block;
+    margin: auto;
+  }
+}

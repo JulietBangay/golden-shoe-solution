@@ -67,10 +67,10 @@ export default function ProductDetails() {
         <div className="reviewsTitle">Reviews</div>
         <div className="exampleReviews">
           <Grid container alignItems="center">
-            <Grid item xs={3}>
+            <Grid item md={3} sm={12}>
               <Rating value={5} readOnly className="productDetailsRating" />
             </Grid>
-            <Grid item xs={9}>
+            <Grid item md={9} sm={12}>
               <p className="reviewContent">An example review</p>
             </Grid>
           </Grid>

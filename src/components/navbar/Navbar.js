@@ -39,15 +39,14 @@ export default function Navbar() {
           </Grid>
 
           <Grid item xs={2} style={{ height: "100%" }}>
-            <Link to="/my-bag" className="navbarLink">
-              <button
-                className="navButton"
-                aria-describedby={id}
-                onClick={handleClick}
-              >
-                My Account
-              </button>
-            </Link>
+            <button
+              className="navButton"
+              aria-describedby={id}
+              onClick={handleClick}
+            >
+              My Account
+            </button>
+
             <Popper id={id} open={open} anchorEl={anchorEl} transition>
               {({ TransitionProps }) => (
                 <Fade {...TransitionProps} timeout={350}>
@@ -72,10 +71,12 @@ export default function Navbar() {
             </Popper>
           </Grid>
           <Grid item xs={2} style={{ height: "100%" }}>
-            <button className="navButton">
-              My Bag
-              <ShoppingBasketIcon className="bagIcon" />
-            </button>
+            <Link to="/my-bag" className="navbarLink">
+              <button className="navButton">
+                My Bag
+                <ShoppingBasketIcon className="bagIcon" />
+              </button>
+            </Link>
           </Grid>
         </Grid>
       </div>

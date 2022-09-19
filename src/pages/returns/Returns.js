@@ -9,7 +9,7 @@ export default function Returns() {
   return (
     <div className="returns">
       <div className="returnsTitle">Returns</div>
-      <Grid container>
+      <Grid container justifyContent="center">
         <Grid item md={4} sm={12}>
           <Link to="/frequently-asked-questions" className="returnsLink">
             <div className="returnsQuestionsContainer">

@@ -24,7 +24,7 @@ export default function Home() {
               state={{ title: "Ladies Shoes: New" }}
             >
               <button variant="contained" className="cardButton">
-                Women
+                Ladies
               </button>
             </Link>
           </Grid>

@@ -9,6 +9,10 @@
   padding-bottom: 20px;
 }
 
+.bagInformation {
+  margin: 20px;
+}
+
 .bagAccountButtons {
   margin: 40px;
 }
@@ -47,4 +51,11 @@
 .bagLoginButton:hover {
   background: white;
   color: #b30000;
+}
+
+@media (max-width: 900px) {
+  .bagSignupButton,
+  .bagLoginButton {
+    width: 50%;
+  }
 }

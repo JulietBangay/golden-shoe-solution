@@ -1,4 +1,5 @@
 .productDetailsGrid {
+  padding: 20px;
   padding-top: 60px;
 }
 
@@ -73,7 +74,6 @@
   border-radius: 5px;
   color: white;
   font-size: 20px;
-
   background: #e38a17;
   border: 3px solid #e38a17;
   transition: all 200ms ease-in-out;
@@ -100,4 +100,10 @@
 
 .reviewContent {
   text-align: left;
+}
+
+@media (max-width: 450px) {
+  .productDetailsReviewsContainer {
+    margin-top: 0px;
+  }
 }
