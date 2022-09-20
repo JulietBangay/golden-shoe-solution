@@ -53,9 +53,25 @@
   color: #b30000;
 }
 
+@media (max-width: 950px) {
+  .bagAccountButtons {
+    margin-bottom: 500px;
+  }
+}
+
 @media (max-width: 900px) {
   .bagSignupButton,
   .bagLoginButton {
     width: 50%;
+  }
+
+  .bagAccountButtons {
+    margin-bottom: 300px;
+  }
+}
+
+@media (max-width: 450px) {
+  .bagAccountButtons {
+    margin-bottom: 200px;
   }
 }
